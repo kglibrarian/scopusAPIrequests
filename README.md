@@ -33,39 +33,39 @@ If you prefer not using Jupyter Notebooks, then consider using the "MultipleAuth
 The final CSV contains a list of each author and their publications. Below are the columns you can expect to see. 
 
 The final CSV has these columns from your original CSV:
-author_name	
-scopus_author_id	
+*author_name	
+*scopus_author_id	
 
 The final dataframe has these columns from the Scopus API (some you may not need):
 See the Scopus documentation for more information <https://dev.elsevier.com/guides/ScopusSearchViews.htm>
-@_fa
-author
-citedby-count	
-dc:identifier	
-dc:title	
-eid	
-error	
-prism:aggregationType	
-prism:coverDate	
-prism:doi	
-prism:issueIdentifier	
-prism:pageRange	
-prism:publicationName	
-prism:url	
-prism:volume	
-pubmed-id	
-subtype	
-subtypeDescription	
-opensearch:totalResults	
-opensearch:startIndex	
-opensearch:itemsPerPage	
-link	
-entry	
-@role	
-@searchTerms	
-@startPage	
-author_names	
-author_ids	
-scopus_author_id_api				
+*@_fa
+*author
+*citedby-count	
+*dc:identifier	
+*dc:title	
+*eid	
+*error	
+*prism:aggregationType	
+*prism:coverDate	
+*prism:doi	
+*prism:issueIdentifier	
+*prism:pageRange	
+*prism:publicationName	
+*prism:url	
+*prism:volume	
+*pubmed-id	
+*subtype	
+*subtypeDescription	
+*opensearch:totalResults	
+*opensearch:startIndex	
+*opensearch:itemsPerPage	
+*link	
+*entry	
+*@role	
+*@searchTerms	
+*@startPage	
+*author_names	
+*author_ids	
+*scopus_author_id_api				
 
 
