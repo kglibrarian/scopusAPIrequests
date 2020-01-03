@@ -1,7 +1,7 @@
 # Scopus API Requests Repository
 repository of python code for making API requests for the Elsevier Scopus API
 
-## What is the Scopus API Requests Repository
+## What is the Scopus API Requests Repository?
 
 The Scopus API Requests Repository is a code base for my own work in Scopus. The repository has two main files of code: 
 
@@ -11,7 +11,7 @@ This file demonstrates how to make a request for articles by a single author usi
 2. MultipleAuthorAPIRequests.ipynb or MultipleAuthorAPIRequests.py
 These files demonstrate how to make a request for articles by mulitple authors using the Scopus API. Further more, the code creates a final CSV (called merged_df) that contains a list of articles for each author, which can help with creating final publication lists. 
 
-## How to use this repository
+## How to use this repository?
 
 For the very beginners, let's start at the beginning. 
 1. Download Python 3 (or higher). <https://www.anaconda.com/distribution/>
@@ -33,39 +33,40 @@ If you prefer not using Jupyter Notebooks, then consider using the "MultipleAuth
 The final CSV contains a list of each author and their publications. Below are the columns you can expect to see. 
 
 The final CSV has these columns from your original CSV:
-*author_name	
-*scopus_author_id	
+author_name,	
+scopus_author_id	
 
 The final dataframe has these columns from the Scopus API (some you may not need):
 See the Scopus documentation for more information <https://dev.elsevier.com/guides/ScopusSearchViews.htm>
-*@_fa
-*author
-*citedby-count	
-*dc:identifier	
-*dc:title	
-*eid	
-*error	
-*prism:aggregationType	
-*prism:coverDate	
-*prism:doi	
-*prism:issueIdentifier	
-*prism:pageRange	
-*prism:publicationName	
-*prism:url	
-*prism:volume	
-*pubmed-id	
-*subtype	
-*subtypeDescription	
-*opensearch:totalResults	
-*opensearch:startIndex	
-*opensearch:itemsPerPage	
-*link	
-*entry	
-*@role	
-*@searchTerms	
-*@startPage	
-*author_names	
-*author_ids	
-*scopus_author_id_api				
+@_fa,
+author,
+citedby-count,
+dc:identifier,
+dc:title,	
+eid,	
+error,	
+prism:aggregationType,	
+prism:coverDate,	
+prism:doi,	
+prism:issueIdentifier,	
+prism:pageRange,	
+prism:publicationName,
+prism:url,
+prism:volume,	
+pubmed-id,	
+subtype,	
+subtypeDescription,	
+opensearch:totalResults,	
+opensearch:startIndex,	
+opensearch:itemsPerPage,	
+link,	
+entry,	
+@role,	
+@searchTerms,	
+@startPage,	
+author_names,	
+author_ids,	
+scopus_author_id_api				
 
-
+## Final infomration
+This repository is a work in progress. More code will be added over time. 
