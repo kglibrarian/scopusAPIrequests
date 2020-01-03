@@ -68,5 +68,5 @@ author_names,
 author_ids,	
 scopus_author_id_api				
 
-## Final infomration
+## Final information
 This repository is a work in progress. More code will be added over time. 
